@@ -1,0 +1,47 @@
+# .copilotignore - Example patterns
+# Ignore build and distribution outputs
+build/
+dist/
+out/
+target/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.cache
+
+
+# Ignore binaries and archives
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.tar
+*.gz
+
+# Ignore generated reports and coverage
+coverage/
+*.lcov
+
+# Ignore environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+monDossierConfidentiel/
+
+# Ignore media files (optional, if not needed for code context)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mp3
